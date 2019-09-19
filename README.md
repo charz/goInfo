@@ -21,7 +21,7 @@ get freebsd information
   
 ## Install:
 ```sh
-  go get github.com/matishsiao/goInfo
+  go get github.com/charz/goInfo
   go build
 ```
 
@@ -44,7 +44,7 @@ get freebsd information
    package main
 
    import (
-	   "github.com/matishsiao/goInfo"
+	   "github.com/charz/goInfo"
    )
 
    func main() {
@@ -57,7 +57,7 @@ Get Linux Distribution version
 ```sh
 package main
 import (
-     "github.com/pyToshka/goInfo"
+     "github.com/charz/goInfo"
 )
 
 func main() {
@@ -74,20 +74,21 @@ ubuntu@ubuntu-xenial:/tmp$
 ```
 
 Get Linux Distribution name
+
 ```sh
 package main
 import (
-     "github.com/pyToshka/goInfo"
+     "github.com/charz/goInfo"
 )
 
 func main() {
 	dist :=goInfo.GetInfo().Name
 	print(dist)
-
-
 }
 ```
+
 Return
+
 ```sh
 [vagrant@localhost tmp]$
 centos
